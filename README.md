@@ -1,8 +1,6 @@
-# Aurum Luxury - Ethereal Sanctuary
+# Aurum Luxury 🌙
 
 <div align="center">
-  <img src="public/vite.svg" alt="Aurum Logo" width="100" />
-  <br />
   <p><i>"Luxury is the absence of noise."</i></p>
   <p>An immersive, high-end web experience for a fictional luxury sanctuary in Kyoto.</p>
 </div>
@@ -13,45 +11,41 @@
 
 **Aurum Luxury** is a concept website for an exclusive resort focused on elemental purity, silence, and minimalism. The project demonstrates high-end frontend development techniques, featuring smooth scrolling, complex GSAP animations, and an atmospheric UI design.
 
-The design language revolves around the contrast between "The Void" (Silence/Black) and "Aurum" (Gold/Light), utilizing a distinct typography pairing of *Italiana* and *Manrope*.
+The design language revolves around the contrast between "The Void" (Silence/Black) and "Aurum" (Gold/Light), creating a cinematic user journey.
 
-### Key Pages
-* **Home:** Cinematic hero section with video background and philosophy scroll reveal.
-* **The Collection:** Horizontal scroll showcase of luxury suites (The Onyx Suite, Ivory Loft, Presidential Void).
-* **Dining:** An "Omakase" culinary experience page with shadow/light aesthetics.
-* **Wellness:** A spa and thermal wellness section focused on "transmutation" of the mind.
+### 🏯 Key Experiences
+* **The Collection:** A horizontal scroll showcase of luxury suites (The Onyx Suite, Ivory Loft, Presidential Void).
+* **Dining:** An "Omakase" culinary experience page designed with shadow and light aesthetics.
+* **Wellness:** A spa section featuring thermal waters and sensory deprivation tanks ("Void Deprivation").
+* **Philosophy:** Scroll-triggered text animations revealing the brand's core values.
 
-## 🛠Tcch Stack
+## 🛠 Tech Stack
 
-* **Framework:** [Vue 3](https://vuejs.org/) (Composition API, `<script setup>`)
+Built with a focus on performance, motion, and atmosphere.
+
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+
+* **Framework:** [Vue 3](https://vuejs.org/) (Composition API)
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 * **Animations:** [GSAP](https://greensock.com/gsap/) (ScrollTrigger)
-* **Smooth Scrolling:** [Lenis](https://lenis.studio/)
-* **Routing:** [Vue Router](https://router.vuejs.org/)
+* **Smooth Scroll:** [Lenis](https://lenis.studio/)
 
 ## ✨ Features
 
-* **Immersive Interactions:**
-    * Custom cursor with blending modes and hover states.
-    * Noise overlay for film-grain texture.
-    * Bespoke Preloader animation.
-* **Advanced Animations:**
-    * Text reveal animations on scroll.
-    * Horizontal scroll sections (Collection view).
-    * Parallax effects on images.
-    * Smooth page transitions.
-* **UI Components:**
-    * Full-screen menu overlay.
-    * Booking/Reservation modal.
-    * Suite detail overlays.
+* **Immersive Interactions:** Custom reactive cursor that blends with the background and expands on interactive elements.
+* **Atmosphere:** Fixed noise overlay to add film-grain texture and depth.
+* **Bespoke Preloader:** Cinematic entrance animation introducing the brand before the app mounts.
+* **Advanced Motion:** Text reveals, parallax effects, and smooth page transitions powered by GSAP and Lenis.
 
 ## 🚀 Getting Started
 
 Follow these steps to set up the project locally.
 
 ### Prerequisites
-* Node.js (v16.0.0 or higher)
 * npm or yarn
 
 ### Installation
@@ -71,36 +65,14 @@ Follow these steps to set up the project locally.
     ```bash
     npm run dev
     ```
-    The site should now be running at `http://localhost:5173`.
+    The site will be available at `http://localhost:5173`.
 
-### Building for Production
-
-To build the project for deployment:
+### Build for Production
 
 ```bash
 npm run build
-
-🎨 Design System
-Colors:
-
-Void: #080808
-
-Mist: #E6E6E6
-
-Gold: #D4AF37
-
-Charcoal: #1a1a1a
-
-Typography:
-
-Headers: Italiana (Serif)
-
-Body/UI: Manrope (Sans-serif)
 
 👤 Author
 Inas Rami
 
 Designed and Developed by Inas Rami.
-
-📄 License
-This project is open source and available under the MIT License.
