@@ -1,0 +1,30 @@
+<script setup>
+import { onMounted } from 'vue';
+import gsap from 'gsap';
+
+onMounted(() => {
+   gsap.from(".dining-hero", { scale: 1.1, opacity: 0, duration: 1.5 });
+});
+</script>
+
+<template>
+  <div class="min-h-screen pt-32 bg-void text-mist">
+      <div class="container px-8 mx-auto md:px-20">
+          <div class="flex flex-col items-center gap-16 md:flex-row">
+              <div class="md:w-1/2">
+                   <span class="font-sans text-xs tracking-[0.4em] text-gold mb-6 block">GASTRONOMY</span>
+                   <h1 class="mb-8 font-serif text-6xl italic md:text-8xl">Aurum<br>Table.</h1>
+                   <p class="mb-10 font-sans text-lg leading-loose text-white/60">
+                       A culinary journey focused on elemental purity. Our chef de cuisine sources ingredients that have absorbed the sun's gold, presenting them in an environment of shadow and light.
+                   </p>
+                   <button class="px-8 py-3 font-sans text-xs tracking-widest transition-colors border border-gold text-gold hover:bg-gold hover:text-void">
+                       RESERVE A TABLE
+                   </button>
+              </div>
+              <div class="md:w-1/2 dining-hero">
+                  <img src="/src/components/Images/dining.webp" alt="Dining" class="w-full h-[70vh] object-cover grayscale opacity-80">
+              </div>
+          </div>
+      </div>
+  </div>
+</template>

@@ -24,13 +24,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="relative h-screen w-full overflow-hidden flex flex-col justify-center items-center" id="hero">
+  <section class="relative flex flex-col items-center justify-center w-full h-screen overflow-hidden" id="hero">
     <div class="absolute inset-0 z-0">
-      <div class="absolute inset-0 bg-void/30 z-10"></div>
+      <div class="absolute inset-0 z-10 bg-void/30"></div>
       
       <video 
         :src="heroVideoUrl" 
-        class="w-full h-full object-cover opacity-80" 
+        class="object-cover w-full h-full opacity-80" 
         id="hero-bg"
         autoplay 
         muted 
@@ -40,7 +40,7 @@ onMounted(() => {
       
     </div>
 
-    <div class="relative z-20 text-center mix-blend-overlay flex flex-col items-center">
+    <div class="relative z-20 flex flex-col items-center text-center mix-blend-overlay">
       <div class="clip-text-container">
         <span class="font-sans text-xs md:text-sm tracking-[0.6em] text-gold mb-4 hero-anim clip-text">EST. 2025 • KYOTO</span>
       </div>
@@ -48,7 +48,7 @@ onMounted(() => {
         <h1 class="font-serif text-giant leading-[0.85] text-mist hero-anim clip-text">ETHEREAL</h1>
       </div>
       <div class="clip-text-container">
-        <h1 class="font-serif text-5xl md:text-7xl italic text-mist hero-anim clip-text mt-4">Sanctuary</h1>
+        <h1 class="mt-4 font-serif text-5xl italic md:text-7xl text-mist hero-anim clip-text">Sanctuary</h1>
       </div>
     </div>
   </section>
