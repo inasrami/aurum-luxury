@@ -79,3 +79,28 @@ To build the project for deployment:
 
 ```bash
 npm run build
+
+🎨 Design System
+Colors:
+
+Void: #080808
+
+Mist: #E6E6E6
+
+Gold: #D4AF37
+
+Charcoal: #1a1a1a
+
+Typography:
+
+Headers: Italiana (Serif)
+
+Body/UI: Manrope (Sans-serif)
+
+👤 Author
+Inas Rami
+
+Designed and Developed by Inas Rami.
+
+📄 License
+This project is open source and available under the MIT License.
