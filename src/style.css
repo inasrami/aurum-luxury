@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@200;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #080808;
+  color: #E6E6E6;
+  cursor: none; 
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+.clip-text-container { overflow: hidden; display: inline-block; }
+.clip-text { transform: translateY(110%); display: block; }
+
+
+html.lenis { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
