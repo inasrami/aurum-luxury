@@ -3,8 +3,6 @@ import { onMounted } from 'vue';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// 1. IMPORT YOUR IMAGES HERE
-// This tells Vite to bundle these files and gives you the correct final URL
 import img1 from '@/components/Images/01.webp';
 import img2 from '@/components/Images/02.webp';
 import img3 from '@/components/Images/03.webp';
@@ -17,13 +15,13 @@ const selectSuite = (title, image) => {
   emit('open-suite', { title, image });
 };
 
-// 2. ASSIGN THE IMPORTED IMAGES TO YOUR DATA
+
 const suites = [
   { 
     id: 1, 
     title: 'The Onyx Suite', 
     price: '$800', 
-    image: img1, // Use the variable, not the string path
+    image: img1, 
     desc: 'Dark stone aesthetics with panoramic city views.' 
   },
   { 
